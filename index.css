@@ -1,0 +1,114 @@
+:root{
+  /* blues */
+  --dark-blue: #000050;
+  --med-blue: #8a8aff;
+  --c-dark-blue: rgb(255, 250, 240); /* Very light orange */
+
+  /* greens */
+  --v-light-green: rgb(150, 235, 150);
+  --t-v-light-green: rgb(150, 235, 150, 40%);
+  --light-green: rgb(95, 165, 95);
+  --med-green: rgb(75, 145, 75);
+  --dark-green: rgb(55, 125, 55);
+
+  /* purples */
+  --med-purple: rgb(140, 75, 190);
+  --dark-purple: rgb(40, 0, 70);
+  --v-dark-purple: rgb(10, 0, 20);
+  --c-dark-purple: white; /*rgb(245, 235, 235); /* Very light pink */
+}
+
+.select-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: inherit;
+}
+input {
+  text-align:center;
+  /*background-color : black;
+  //color: green;
+  border-width: 0;
+  font-size: 16px; */
+
+  height: 75px;
+  width: 525px;
+  border: 2px solid black; 
+  border-radius: 10px;
+  background-color: white;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 30px;
+  padding: 5px;
+}
+input.rpn {
+  height: 40px;
+  font-size: 15px;
+}
+
+.calc-container {
+  width: 600px; 
+  height: 750px; 
+  border: 3px solid black; 
+  border-radius: 25px; 
+  background-color: lightgrey; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#calc-inp-chage {
+  height: 75px;
+  width: 525px;
+  border: 2px solid black; 
+  border-radius: 10px;
+  background-color: white;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 30px;
+  padding: 5px;
+}
+
+#calc-btns-box {
+  width: 500px; 
+  height: 560px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-btn-row {
+  width: 500px; 
+  height: 140px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calc-btn-hold {
+  width: 100px; 
+  height: 140px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calc-btn {
+  width: 75px; 
+  height: 60px; 
+  border-radius: 20px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: antiquewhite;
+  font-size: 25px;
+  cursor: pointer;
+}
